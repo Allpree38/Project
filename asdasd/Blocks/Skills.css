@@ -1,0 +1,106 @@
+.osn {
+    display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter-Regular';
+    color: var(--main-text-color);
+}
+
+.osn h2 {
+    font-size: 40px;
+}
+
+.I {
+    max-width: max-content;
+    height: 44px;
+}
+
+.vtor {
+    width: 40%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.durka {
+    width: 307px;
+    height: 225px;
+    border-radius: 2px;
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+.durka ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.durka ul li {
+    width: 60px;
+    height: 37px;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 10px;
+    background-color: var(--main-text-color);
+    color: white;
+    gap: 10px;
+    list-style: none;
+    width: max-content;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.proces p {
+    font-family: "Inter-Regular";
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.fentanil {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+
+.kolim {
+    position: relative;
+    height: 100%;
+    background-color:var(--main-text-color);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.uspokoitelnoe {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+
+.kushaem {
+    position: relative;
+    height: 100%;
+    background-color: var(--main-text-color);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.gotovo {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+
+.vilechili {
+    position: relative;
+    height: 100%;
+    background-color: var(--main-text-color);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}

@@ -1,0 +1,11 @@
+/* light */
+
+:root {
+    --main-bg-color: #ffffff;
+    --second-bg-color: #FFDA74;
+    --main-text-color: grey;
+    --main-accent-color: rgb(0, 125, 228);
+    --main-add-color: rgb(24, 24, 24);
+    --main-black-color: rgb(25 25 25);
+    --main-text-color: #1B1B1B;
+}

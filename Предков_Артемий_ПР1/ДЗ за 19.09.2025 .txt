@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Предков Артемий" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Театральный блог</header>
+    <nav>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <article>
+        <main>
+        <h2>Основы театра</h2>
+        <p>Премьера - <time datetime="2026.04.15">15 мая 2026</time></p>
+        <h3>Термины</h3>
+        <dl>
+            <dt>Солиловкий</dt>
+            <dd>Речь персонажа сам с собой для публики.</dd>
+            <dt>Монолог</dt>
+            <dd>Речь, обращённая к публике и персонажам.</dd>
+            <dd>Может быть частью диалога.</dd>
+        </dl>
+        <h3>Цитата</h3>
+        <blockquote>
+            <p cite="https://example.com/theater" >Театр — это зеркало души.</p>
+        </blockquote>
+        <p>Из <a href="https://example.com/shakespeare">Гамлета</a></p>
+        <p>Шекспир сказал: <q>Весь мир — театр</q></p>
+        <h3>Код сцены</h3>
+        <pre><code>let scene = document.querySelector('div');
+scene.onclick = function() { alert('Театр!'); }</code></pre>
+        <p>Переменная <var>scene</var> задаёт сцену</p>
+        <aside>
+            <h2>Контакты</h2>
+            <address>Москва, ivan@example.com</address>
+            <p>Напишите нам: <a href="mailto:ivan@example.com">ivan@example.com</a></p>
+        </aside>
+        </main>
+        <footer><p>© 2025 Театральный блог. Все права защищены.</p></footer>
+    </article>
+</body>
+</html>
