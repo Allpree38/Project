@@ -12,6 +12,7 @@ footer {
 }
 
 footer ul li {
+    color: #ffffff;
     font-size: 20px;
     display: inline-block;
     padding-right: 30px;
@@ -24,11 +25,13 @@ footer ul {
 }
 
 footer h4 {
+    color: #ffffff;
     font-size: 14px;
     opacity: 40%;
 }
 
 footer p {
+    color: #ffffff;
     font-size: 10px;
     opacity: 25%;
     max-width: 252px;
@@ -37,6 +40,6 @@ footer p {
 }
 
 footer a {
-    color: #FFDA74;
+    color: var(--back-color);
     text-decoration: none;
 }

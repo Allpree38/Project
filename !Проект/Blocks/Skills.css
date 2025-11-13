@@ -42,7 +42,7 @@
     border-radius: 2px;
     margin: 3px;
     padding: 10px;
-    background-color: var(--main-text-color);
+    background-color: var(--skills-color);
     color: white;
     gap: 10px;
     list-style: none;
@@ -61,14 +61,14 @@
     position: relative;
     width: 400px;
     height: 5px;
-    background-color: var(--main-bg-color);
+    background-color: white;
     border-radius: 10px;
 }
 
 .kolim {
     position: relative;
     height: 100%;
-    background-color:var(--main-text-color);
+    background-color:var(--black-blue);
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -77,14 +77,14 @@
     position: relative;
     width: 400px;
     height: 5px;
-    background-color: var(--main-bg-color);
+    background-color: white;
     border-radius: 10px;
 }
 
 .kushaem {
     position: relative;
     height: 100%;
-    background-color: var(--main-text-color);
+    background-color: var(--black-blue);
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -93,14 +93,14 @@
     position: relative;
     width: 400px;
     height: 5px;
-    background-color: var(--main-bg-color);
+    background-color: white;
     border-radius: 10px;
 }
 
 .vilechili {
     position: relative;
     height: 100%;
-    background-color: var(--main-text-color);
+    background-color: var(--black-blue);
     border-radius: 10px;
     transition: width 0.3s ease;
 }

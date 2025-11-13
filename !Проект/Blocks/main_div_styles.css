@@ -8,3 +8,7 @@
     opacity: 1;
     border-radius: 2px;
 }
+
+body {
+    background-color: var(--main-bg-color);
+}

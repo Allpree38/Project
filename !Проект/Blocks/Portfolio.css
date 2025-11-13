@@ -1,4 +1,5 @@
 .Portfolio {
+    background-color: var(--main-bg-color);
     font-family: 'Inter-Regular';
     color: var(--main-text-color);
     width: 1200px;
@@ -64,6 +65,7 @@
 }
 
 .cool1,.cool6 { 
+    border: 1px solid #E1E1E1;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -76,6 +78,7 @@
 }
 
 .cool2,.cool3,.cool4,.cool5 {
+    border: 1px solid #E1E1E1;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -94,7 +97,7 @@
 .bt {
     width: 130px;
     height: 52px;
-    background-color: var(--main-bg-color);
+    background-color: var(--bt-color);
     border: none;
     border-radius: 5px;
 }

@@ -105,9 +105,11 @@
     border-left: none;
     border-right: none;
     width: 335px;
+    background-color: var(--main-bg-color);
 }
 
 .mass_bord {
+    background-color: var(--main-bg-color);
     width: 700px;
     height: 103px;
     border-radius: 7px;
